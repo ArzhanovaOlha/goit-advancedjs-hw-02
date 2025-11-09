@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>goit-advancedjs-hw-02</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/snackbar.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-title">GoIT - AdvancedJS - HW - 02</div>
+  </header>
+
+  <main class="hero">
+    <form class="form">
+    <label>
+        Delay (ms)
+        <input type="number" name="delay" required>
+    </label>
+
+    <fieldset>
+        <legend>State</legend>
+        <label>
+        <input type="radio" name="state" value="fulfilled" required>
+        Fulfilled
+        </label>
+        <label>
+        <input type="radio" name="state" value="rejected" required>
+        Rejected
+        </label>
+    </fieldset>
+
+    <button type="submit">Create notification</button>
+    </form>
+
+    <div class="cta-group center">
+      <a href="index.html" class="btn secondary">Back to Homepage</a>
+    </div>  
+  </main>
+
+  <footer class="footer">
+    © 2025 Olha Arzhanova. All rights reserved.
+  </footer>
+
+  <script type="module" src="./js/2-snackbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+</body>
+</html>
